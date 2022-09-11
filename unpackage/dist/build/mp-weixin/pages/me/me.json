@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "我的",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "van-cell": "/wxcomponents/vant/cell/index",
+    "van-popup": "/wxcomponents/vant/popup/index",
+    "van-cell-group": "/wxcomponents/vant/cell-group/index"
+  }
+}

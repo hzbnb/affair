@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "van-cell": "/wxcomponents/vant/cell/index",
+    "van-field": "/wxcomponents/vant/field/index",
+    "van-button": "/wxcomponents/vant/button/index",
+    "van-cell-group": "/wxcomponents/vant/cell-group/index"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "uni-app",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "van-loading": "/wxcomponents/vant/loading/index"
+  }
+}

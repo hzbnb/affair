@@ -1,0 +1,197 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.wai.data-v-e06c2434 {
+  height: 100%;
+  background-size: cover;
+}
+.main.data-v-e06c2434 {
+  height: 89%;
+  overflow: hidden;
+  background-size: cover;
+}
+.loading.data-v-e06c2434 {
+  width: 100%;
+  position: fixed;
+  bottom: 18%;
+  z-index: 88;
+  text-align: center;
+}
+/* 自定义导航栏 */
+.navbar.data-v-e06c2434 {
+  height: 65rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 28rpx;
+}
+.popup.data-v-e06c2434 {
+  position: absolute;
+  left: 30rpx;
+  margin-bottom: 10rpx;
+  z-index: 888;
+}
+.pop_title.data-v-e06c2434 {
+  display: flex;
+  justify-content: center;
+  margin-top: 108rpx;
+  font-size: 32rpx;
+  letter-spacing: 2rpx;
+}
+.pop_list.data-v-e06c2434 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 58rpx 28rpx;
+}
+.pop_list .pop_list_item.data-v-e06c2434 {
+  height: 138rpx;
+  display: flex;
+  flex-direction: column;
+  margin-right: 50rpx;
+  justify-content: space-around;
+  font-size: 28rpx;
+}
+/* 下拉小圆点 */
+.point_item.data-v-e06c2434 {
+  display: inline-block;
+  width: 130rpx;
+  height: 128rpx;
+  padding: 0 5rpx;
+}
+.point_item .point_wai.data-v-e06c2434 {
+  display: flex;
+  padding: 6rpx 0;
+  border-radius: 20rpx;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 25rpx;
+}
+.point_item .point_wai text.data-v-e06c2434 {
+  margin-bottom: 5rpx;
+}
+.point_item .point_wai .point.data-v-e06c2434 {
+  width: 105rpx;
+  height: 75rpx;
+  display: flex;
+  flex-flow: wrap;
+  position: relative;
+}
+.point_item .point_wai .point .mipot.data-v-e06c2434 {
+  height: 13rpx;
+  width: 13rpx;
+  margin: 1%;
+  border-radius: 100%;
+}
+/* 星期周几 */
+.week.data-v-e06c2434 {
+  display: flex;
+  font-size: 24rpx;
+  height: 5%;
+}
+.week_date.data-v-e06c2434 {
+  width: calc(94% / 7);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.week > view.data-v-e06c2434:first-child {
+  display: flex;
+  flex-direction: column;
+  width: 6%;
+  align-items: center;
+}
+/* 整个课表 */
+.schedule.data-v-e06c2434 {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  /* background-image: url(''); */
+}
+/* 课表背景图片 */
+.backimg.data-v-e06c2434 {
+  position: absolute;
+  top: 200rpx;
+}
+/* 课表左侧 */
+.left.data-v-e06c2434 {
+  width: 6%;
+  height: 100%;
+}
+.left > view.data-v-e06c2434 {
+  display: flex;
+  flex-direction: column;
+  height: 9%;
+  justify-content: center;
+  align-items: center;
+  font-size: 20rpx;
+}
+/* 课表右侧 */
+.right.data-v-e06c2434 {
+  display: flex;
+  flex-shrink: 0;
+  width: 100%;
+  position: relative;
+  font-weight: bolder;
+}
+.sch_main.data-v-e06c2434 {
+  position: absolute;
+  width: 14%;
+  color: white;
+  font-size: 23rpx;
+  padding: 2rpx 6rpx;
+  word-break: break-word;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.sch_main > view.data-v-e06c2434 {
+  width: 100%;
+  height: 100%;
+  border-radius: 18rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.delweek.data-v-e06c2434 {
+  width: 100%;
+  line-height: 600rpx;
+  text-align: center;
+  font-size: 50rpx;
+  color: #76c26b;
+}
+.ce.data-v-e06c2434 {
+  background-image: url("https://ts3.cn.mm.bing.net/th?id=OIP-C.8olSEek1RZjSQDgPizhxEAHaJ3&w=216&h=288&c=8&rs=1&qlt=90&o=6&dpr=1.4&pid=3.1&rm=2");
+}
+@media (prefers-color-scheme: dark) {
+.data-v-e06c2434 .van-popup {
+    background-color: #000;
+}
+}
+

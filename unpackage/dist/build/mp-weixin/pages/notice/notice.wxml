@@ -1,0 +1,1 @@
+<view class="main data-v-4f1556ca"><view class="title data-v-4f1556ca"><view class="data-v-4f1556ca">{{title}}</view><text class="data-v-4f1556ca">数据来源：学校官网</text></view><rich-text class="detail data-v-4f1556ca" user-select="{{true}}" nodes="{{strings}}"></rich-text></view>

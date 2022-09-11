@@ -1,0 +1,16 @@
+
+page {
+	/*每个页面公共css */
+	background-color: #f8f8f8;
+	height: 100%;
+}
+button::after {
+	border: none;
+}
+@media (prefers-color-scheme: dark) {
+page {
+		/*每个页面公共css */
+		background-color: #191919;
+}
+}
+

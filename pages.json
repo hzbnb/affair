@@ -1,0 +1,123 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom",
+				"usingComponents": {
+					"van-loading": "/wxcomponents/vant/loading/index"
+				}
+			}
+		}, {
+			"path": "pages/me/me",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom",
+				"usingComponents": {
+					"van-cell": "/wxcomponents/vant/cell/index",
+					"van-popup": "/wxcomponents/vant/popup/index",
+					"van-cell-group": "/wxcomponents/vant/cell-group/index"
+				},
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/map/map",
+			"style": {
+				"navigationBarTitleText": "宿院速办-校园导航",
+				"enablePullDownRefresh": false
+			}
+
+
+		}, {
+			"path": "pages/schdeuel/schdeuel",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"usingComponents": {
+					"van-icon": "/wxcomponents/vant/icon/index",
+					"van-popup": "/wxcomponents/vant/popup/index",
+					"van-loading": "/wxcomponents/vant/loading/index"
+				},
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"usingComponents": {
+					"van-cell": "/wxcomponents/vant/cell/index",
+					"van-field": "/wxcomponents/vant/field/index",
+					"van-button": "/wxcomponents/vant/button/index",
+					"van-cell-group": "/wxcomponents/vant/cell-group/index"
+				},
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/club/club",
+			"style": {
+				"navigationBarTitleText": "社团大全",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/notice/notice",
+			"style": {
+				"navigationBarTitleText": "通知详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/about/about",
+			"style": {
+				"navigationBarTitleText": "关于我们",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	    ,{
+            "path" : "pages/club_detail/club_detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"tabBar": {
+		"color": "@color",
+		"backgroundColor": "@tabBackgroundColor",
+		"selectedColor": "#6eaddf",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/tabbar/主页.png",
+			"selectedIconPath": "static/tabbar/主页_sel.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/schdeuel/schdeuel",
+			"iconPath": "static/tabbar/课程表.png",
+			"selectedIconPath": "static/tabbar/课程表_sel.png",
+			"text": "课表"
+		}, {
+			"pagePath": "pages/me/me",
+			"iconPath": "static/tabbar/作者.png",
+			"selectedIconPath": "static/tabbar/作者_sel.png",
+			"text": "我的"
+		}]
+
+	},
+	"globalStyle": {
+		"navigationBarTitleText": "uni-app",
+		"backgroundColor": "@backgroundColor",
+		"backgroundTextStyle": "@backgroundTextStyle",
+		"navigationBarBackgroundColor": "@navBackgroundColor",
+		"navigationBarTextStyle": "@navTextStyle"
+	},
+
+	"uniIdRouter": {}
+}

@@ -1,0 +1,28 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": false
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"firstday":{
+			"bsonType": "timestamp",
+			"title": "第一天"
+		},
+		"schdeltime":{
+			"bsonType": "timestamp",
+			"title": "课表的过期时间"
+		},
+		"thisdeltime":{
+			"bsonType":"timestamp",
+			"title": "本信息过期时间"
+		}
+	}
+}
