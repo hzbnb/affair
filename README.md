@@ -33,7 +33,18 @@ github地址：[https://github.com/hzbnb/affair](https://github.com/hzbnb/affair
 
 ### 学校通知：
 ​	从官网实施爬取官网的通知，让学生可以从手机端方便的查看官网通知。
- 	
+
+### 联系方式：
+
+<img src="https://s1.ax1x.com/2022/09/12/vXfTTU.jpg" style="width:50%" />
+
+
+
+
+
+
+
+
 
 
 
