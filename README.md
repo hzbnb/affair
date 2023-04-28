@@ -12,11 +12,14 @@ github地址：[https://github.com/hzbnb/affair](https://github.com/hzbnb/affair
 系统演示视频：[https://www.bilibili.com/video/BV1He4y1Z7du](https://www.bilibili.com/video/BV1He4y1Z7du)
 
 线上小程序 ：
-<img src="https://s1.ax1x.com/2023/04/29/p91uCE8.jpg" style="width: 200px;">
+
+<img src="https://s1.ax1x.com/2023/04/29/p91uCE8.jpg" style="width: 200px;display: inline-block;">
 
 ## 截图展示
-<img src="https://s1.ax1x.com/2023/04/29/p91uSDP.png" style="width: 200px;">
-<img src="https://s1.ax1x.com/2023/04/29/p91upHf.png" style="width: 200px;">
+<img src="https://s1.ax1x.com/2023/04/29/p91uSDP.png" style="width: 200px; display: inline-block;">
+<img src="https://s1.ax1x.com/2023/04/29/p91upHf.png" style="width: 200px; display: inline-block;">
+
+### 招募开发者 下方联系微信
 
 ## 功能介绍
 
